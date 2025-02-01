@@ -8,6 +8,7 @@ model = ChatOpenAI(model="gpt-3.5-turbo")
 
 # SystemMessage: Message for priming AI behavior, usually used to start a conversation
 # HumanMessage: Message from a human user
+# AIMessage: Message from the AI model
 message = [
     SystemMessage(content="Solve the following math problems"),
     HumanMessage(content="What is 2 + 2?"),
